@@ -1,0 +1,90 @@
+.container{
+  width: 95%;
+  margin: auto;
+}
+.header__right{
+  font-size: 30px;
+  font-style: 
+}
+.navigator{
+  background-color: rgb(252, 255, 254);
+  display:flex;
+  justify-content: space-between;
+  margin-top: 3em;
+  margin-bottom: 3rem;
+}
+
+.nav__text{
+  align-self: center;
+}
+.header__home{
+  display:flex;
+}
+
+.form__title{
+  font-weight: bolder;
+  font-size: x-large;
+  
+}
+
+.email, .password, .fullname{
+  line-height: 40px;
+  width: 26rem;
+  font-size: 20px;
+  border: none;
+  
+}
+ .form__input, .form__inputtwo{
+  display: flex;
+  align-self: center;
+  background-color: rgb(255, 255, 255);
+  line-height: 46px;
+ 
+  border-radius: 7px;
+   
+}
+
+
+
+.email{
+
+}
+.password{
+  margin-bottom: 4rem;
+}
+
+.button__login{
+  color: white;
+  background-color: rgb(72, 12, 128);
+  width: 12em;
+  line-height: 34px;
+  border-radius: 25px;
+  font-size: 16px;
+  margin-right: 2rem;
+
+}
+
+.button__pwdforget{
+  border: none;
+  background-color: white;
+}
+.form__button{
+  margin-bottom: 4rem;
+}
+
+.png_section{
+  display:flex;
+  width:21rem;
+ 
+  
+ 
+}
+.png__text{
+  align-self: center;
+  margin-right: 2em;
+}
+
+.png__img{
+  margin: 1rem;
+  height:30px;
+}

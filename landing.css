@@ -1,0 +1,37 @@
+img{
+  width: 25px;
+  height: 25px;
+  margin-right:7px;
+}
+.logoArea{
+  display:flex;
+  font-weight: bold;
+  
+  width:33%;
+  
+}
+.navigator__menu{
+  display: flex;
+  margin-top: 1em;
+  justify-content: space-between;
+}
+.menu__area{
+  display:flex;
+  margin-right: 100px;
+}
+.menu{
+   margin-left: 1rem;
+}
+.button__area{
+  display: flex;
+  
+  justify-content: space-evenly;
+}
+.menu__buttonone{
+  
+  background-color: aqua;
+  color:aliceblue;
+  border: none;
+  border-radius: 6px;
+
+}
