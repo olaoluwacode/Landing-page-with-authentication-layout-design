@@ -1,81 +1,65 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
+ 
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CloudtopGregister</title>
+    <title>CloudtopG</title>
+    <meta charset="UTF-8">
     <meta name="description" content="description"/>
     <meta name="author" content="author" />
     <meta name="keywords" content="keywords" />
     <link rel="stylesheet" href="./register.css" type="text/css" />
     <style type="text/css">.body { width: auto; }</style>
    
- 
-    <script src="https://kit.fontawesome.com/dba8dbd2af.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
 
 
     <div class="container">
       <div class="navigator">
-        <div class="header__right">CloudtopG</div>
-    
-        <div class="nav__text"> Existing User? Login</div>
+        
+          <p class="nav__left"> CloudtopG</p>
+        
+        
+        <p class="nav__right">
+          Existing User? Login
+        </p>
+      
       </div>
       
       <div class="header__home">
           
 
           <div class="home__left">
-            <img alt="" src="https://cloudtopg.netlify.app/assets/login_pic-ju_59Ozl.png"/>
+            <img class="image" alt="" src="https://cloudtopg.netlify.app/assets/login_pic-ju_59Ozl.png"/>
           </div>
           <div class="home__right">
             <p class="form__title">User registration </p>
-            
-
+           
+                <!----------------The form area --------------->
             <form class="home__form">
-              <div class="form__inputtwo">
-                <div>
-                  <i class="fa-regular fa-user"></i>
+                <div class="fullname__div">
+                  <input type="fullname" class="fullname" placeholder="Fullname" >
                 </div>
-                <div>
-                <input type="fullname" class="fullname" name="fullname" placeholder=" Fullname"> <br>
-              </div>
-              
-                         
-              </div> 
-              
-              <div class="form__inputtwo">
-                <div>
-                  <i class="fa-regular fa-envelope"></i>
-                </div>
-                <div>
-                  <input type="email" class="email" name="pwd" placeholder=" Email"> 
-               </div>
-                                       
-              </div>
-              
 
-              <div class="form__inputtwo">
-                <div>
-                  <i class="fa-solid fa-lock"></i>
-                </div>
-                <div>
-                  <input type="password" class="password" name="pwd" placeholder=" Password"> 
-               </div>
-                                       
+              <div class="email__div">
+                <input type="email" class="email" name="email" placeholder=" Email" > <br>
               </div>
-                
+              <div class="password__div">
+                <input type="password" class="password"  name="pwd" placeholder=" Password"> <br>
+              </div>
                 <div class="form__button">
+                      
                       <button class="button__login" type="button">Sign up </button>
-                      <button class="button__pwdforget" type="button">Existing User? Login</button>
+                      <button class="button__pwdforget" type="button"> Existing user? Login</button>
                   </div>
             </form>
 
-                <div class="png_section">
+                <div class="png__section">
 
                   <div class="png__text">
-                    Signup with
+                    Login with
                   </div> 
                   <div>
                       <img class="png__img" alt="" src="./gmailpng.png">

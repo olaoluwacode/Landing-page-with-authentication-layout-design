@@ -107,10 +107,22 @@ background-color: rgb(255, 255, 255);
   }
 }
 
-
 @media  (max-width: 500px) {
   .header__home {
         display: flex;
         flex-direction: column;
   }
 }
+
+
+@media  (max-width: 700px) {
+  .image {
+       width:600px;
+  }
+}
+@media  (max-width: 700px) {
+  .header__home {
+        display: flex;
+        flex-direction: column;
+  }
+}xcclouc
