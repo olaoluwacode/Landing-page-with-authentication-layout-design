@@ -1,3 +1,7 @@
+body{
+  overflow-x:hidden;
+}
+
 .container{
   border: 1px solid black;
   
@@ -98,8 +102,9 @@ margin-top: 2rem;
   display: flex;
  
 }
+
 .sectionTwo__divOne{
-  width: 400px;
+  
   margin-right: 8rem;
   margin-top: 2rem;
 }

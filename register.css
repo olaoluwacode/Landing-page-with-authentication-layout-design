@@ -1,3 +1,7 @@
+body{
+  overflow-x:hidden;
+}
+
 .container{
   width: 85%;
   margin: auto;
@@ -34,11 +38,13 @@ background-color: rgb(255, 255, 255);
    
 }
 .home__left{
-  width: 60%;
+  width: 100%;
   background-color: rgb(255, 255, 255);
 }
 .home__right{
+  
   background-color: rgb(255, 255, 255);
+  margin-left: 3rem;
 }
 .home__form{
   min-width: 20rem;
